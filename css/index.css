@@ -1,5 +1,6 @@
 :root {
   color-scheme: dark;
+  --primary: #23b5e8;
   --white: #f1f5f8;
   --size: 4px;
   --max-width: 1024px;
@@ -24,8 +25,30 @@
   max-width: var(--max-width);
 }
 
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  color: var(--white);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.25s;
+
+  &:hover {
+    color: var(--primary);
+  }
+}
+
 .flexbox {
   display: flex;
+}
+
+.flexbox--centered-sides {
+  align-items: center;
+  justify-content: space-between;
 }
 
 .flexbox--centered-sides {
