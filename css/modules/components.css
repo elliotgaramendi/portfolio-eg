@@ -11,12 +11,6 @@
   padding-block: calc(var(--size) * 4);
 }
 
-.container {
-  padding-inline: calc(var(--size) * 4);
-  margin-inline: auto;
-  max-width: var(--max-width);
-}
-
 .hero {
   position: relative;
   display: flex;
@@ -68,4 +62,29 @@
   position: absolute;
   top: calc(var(--size) * 4);
   right: calc(var(--size) * 4);
+}
+
+.card {
+  max-width: 512px;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--size) * 2);
+}
+
+.card__title {
+  font-size: calc(var(--size) * 5);
+  margin: 0;
+}
+
+.card__subtitle {
+  font-size: calc(var(--size) * 4.5);
+  margin: 0;
+}
+
+.card__text {
+  font-size: calc(var(--size) * 4);
+  margin: 0;
 }

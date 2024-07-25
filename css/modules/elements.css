@@ -52,7 +52,6 @@
 
 .button--primary {
   --color: var(--primary);
-  color: var(--light-primary-text);
 }
 
 .button--outline-primary {

@@ -1,3 +1,15 @@
+.d-flex {
+  display: flex;
+}
+
+.c-black {
+  color: var(--black);
+}
+
+.gap-2 {
+  gap: calc(var(--size) * 2);
+}
+
 @media (width >=768px) {
   .md\:d-none {
     display: none;
