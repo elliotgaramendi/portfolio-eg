@@ -30,3 +30,18 @@
   height: calc(var(--size) * 8);
   border-radius: 50%;
 }
+
+.button {
+  padding: calc(var(--size) * 2) calc(var(--size) * 4);
+  border-radius: var(--border-radius);
+  background-color: var(--primary-background);
+  color: var(--primary-text);
+  font-size: calc(var(--size) * 3.5);
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity var(--transition-duration);
+
+  &:hover {
+    opacity: 0.875;
+  }
+}

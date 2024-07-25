@@ -2,7 +2,12 @@
   color-scheme: dark;
   --primary: #23b5e8;
   --white: #f1f5f8;
+  --black: #010508;
+  --primary-background: var(--black);
+  --primary-text: var(--white);
   --shadow: #01050880;
   --size: 4px;
   --max-width: 1024px;
+  --border-radius: calc(var(--size) * 4);
+  --transition-duration: 0.25s
 }
