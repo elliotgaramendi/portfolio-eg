@@ -67,6 +67,12 @@
   }
 }
 
+.off-canvas__close {
+  position: absolute;
+  top: calc(var(--size) * 4);
+  right: calc(var(--size) * 4);
+}
+
 .link {
   color: var(--white);
   font-weight: 600;
