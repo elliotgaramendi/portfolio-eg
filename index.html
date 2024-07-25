@@ -68,7 +68,7 @@
     <article class="hero">
       <img src="https://i.postimg.cc/x9MyhM3D/react-system.webp" alt="React System" width="1280" height="720"
         class="img img--background">
-      <div class="container g-layout g-layout--center md:g-template-columns-1fr-1fr">
+      <div class="container g-layout g-layout--center md:g-template-columns-1fr-1fr gap-4">
         <div class="card">
           <div class="card__body">
             <h1 class="card__title">Elliot Garamendi I Desarrollo de Software</h1>
@@ -82,12 +82,24 @@
             </div>
           </div>
         </div>
-        <img src="https://i.postimg.cc/MTgfKHSz/elliot-garamendi-feliz.webp" alt="Elliot Garamendi" width="256"
-          height="256">
+        <div class="hero__cover">
+          <img src="https://i.postimg.cc/MTgfKHSz/elliot-garamendi-feliz.webp" alt="Elliot Garamendi" width="256"
+            height="256">
+          <div class="hero__cover-decorator">
+            <img src="https://www.svgrepo.com/show/353884/html-5.svg" alt="HTML" width="64" height="64"
+              class="img img--decorator">
+            <img src="https://www.svgrepo.com/show/353623/css-3.svg" alt="CSS" width="64" height="64"
+              class="img img--decorator">
+            <img src="https://www.svgrepo.com/show/373705/js-official.svg" alt="JS" width="64" height="64"
+              class="img img--decorator">
+            <img src="https://www.svgrepo.com/show/373446/astro.svg" alt="Astro" width="64" height="64"
+              class="img img--decorator">
+          </div>
+        </div>
       </div>
     </article>
     <section class="section" id="projects">
-      <div class="container">
+      <div class="container d-flex f-direction-column gap-4">
         <h2 class="title">Proyectos</h2>
         <div class="g-layout g-layout--auto-fit-columns gap-4">
           <img src="./img/proyecto-1.jpg" alt="Proyecto 1" width="256" height="144" class="img img--summary">

@@ -17,6 +17,16 @@
   height: 100dvh;
 }
 
+.hero__cover {
+  position: relative;
+}
+
+.hero__cover-decorator {
+  position: absolute;
+  inset: 0;
+  animation: spin 10s linear infinite;
+}
+
 .section {
   padding-block: calc(var(--size) * 8);
 }

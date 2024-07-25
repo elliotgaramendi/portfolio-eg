@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.f-direction-column {
+  flex-direction: column;
+}
+
 .c-black {
   color: var(--black);
 }
@@ -12,6 +16,10 @@
 
 .gap-4 {
   gap: calc(var(--size) * 4);
+}
+
+.gap-8 {
+  gap: calc(var(--size) * 8);
 }
 
 @media (width >=768px) {
