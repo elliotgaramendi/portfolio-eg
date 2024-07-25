@@ -25,6 +25,17 @@
   height: 100%;
 }
 
+.img--summary {
+  width: 100%;
+  height: calc(var(--size)*36);
+  border-radius: var(--border-radius);
+  transition: transform var(--transition-duration);
+
+  &:hover {
+    transform: scale(1.0625);
+  }
+}
+
 .img--logo {
   width: calc(var(--size) * 8);
   height: calc(var(--size) * 8);

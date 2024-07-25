@@ -10,6 +10,10 @@
   gap: calc(var(--size) * 2);
 }
 
+.gap-4 {
+  gap: calc(var(--size) * 4);
+}
+
 @media (width >=768px) {
   .md\:d-none {
     display: none;

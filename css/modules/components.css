@@ -17,6 +17,10 @@
   height: 100dvh;
 }
 
+.section {
+  padding-block: calc(var(--size) * 8);
+}
+
 .list {
   padding: 0;
   margin: 0;

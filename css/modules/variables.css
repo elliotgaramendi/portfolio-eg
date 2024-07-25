@@ -1,5 +1,6 @@
 :root {
   color-scheme: dark;
+  scroll-behavior: smooth;
   --primary: #23b5e8;
   --white: #f1f5f8;
   --black: #010508;
