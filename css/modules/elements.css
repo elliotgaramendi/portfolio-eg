@@ -32,16 +32,30 @@
 }
 
 .button {
+  --color: var(--primary-background);
   padding: calc(var(--size) * 2) calc(var(--size) * 4);
+  border: calc(var(--size) * 0.5) solid var(--color);
   border-radius: var(--border-radius);
-  background-color: var(--primary-background);
+  background-color: var(--color);
   color: var(--primary-text);
   font-size: calc(var(--size) * 3.5);
   font-weight: 600;
   text-decoration: none;
-  transition: opacity var(--transition-duration);
+  transition: box-shadow var(--transition-duration), background-color var(--transition-duration), opacity var(--transition-duration);
 
   &:hover {
+    box-shadow: 0 calc(var(--size) * 0.5) var(--size) 0 var(--color);
+    background-color: var(--color);
     opacity: 0.875;
   }
+}
+
+.button--primary {
+  --color: var(--primary);
+  color: var(--light-primary-text);
+}
+
+.button--outline-primary {
+  --color: var(--primary);
+  background-color: transparent;
 }
