@@ -6,3 +6,18 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.g-layout {
+  display: grid;
+}
+
+.g-layout--center {
+  place-items: center;
+  place-content: center;
+}
+
+@media (width >=768px) {
+  .md\:g-template-columns-1fr-1fr {
+    grid-template-columns: 1fr 1fr;
+  }
+}
